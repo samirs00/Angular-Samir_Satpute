@@ -1,0 +1,116 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 select-pizza-col">
+      <div class="select-pizza">
+        <div class="row">
+          <div class="col-md-12"><label for="floatField2">Select Your pizza type</label></div>
+
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <input type="radio" name="radio1" id="classx" value="classx" checked><label
+                class="classx-label select-label four col" for="classx">Veg</label>
+            </li>
+            <li class="list-inline-item">
+              <input type="radio" name="radio1" id="classxii" value="classxii"><label
+                class="classxii-label select-label four col" for="classxii">NonVeg</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="range-slider">
+        <div class="form-group">
+          <label for="formControlRange">Price Range</label>
+          <input type="range" class="form-control-range" min="100" max="600" step="6" id="formControlRange">
+        </div>
+      </div>
+      <div class="pizza-dropdown">
+        <select class="form-control" name="typeSelector" #type id="typeSelector" (change)="selectPizzaType(type.value)"
+          autofocus required>
+          <option value="" selected>Select Type</option>
+          <option value="Thin Crust">Thin Crust</option>
+          <option value="Regular base">Regular base</option>
+          <option value="Flat bread">Flat bread</option>
+          <option value="Multigrain">Multigrain</option>
+        </select><br />
+        <select class="form-control" name="baseSelector" #base id="baseSelector" (change)="selectPizzaBase(base.value)"
+          autofocus required>
+          <option value="" selected>Select Base</option>
+          <option value="Cheese burst">Cheese burst</option>
+          <option value="Cheese topping">Cheese topping</option>
+          <option value="No cheese">No cheese</option>
+        </select><br />
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="pizza-result" *ngFor="let pizza of pizzaList">
+        <div class="media">
+          <img [src]="pizza.image" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">{{pizza.name}}</h5>
+            <ul>
+              <li>
+                <p>
+                  {{pizza.pizzaBase}}
+                </p>
+              </li>
+              <li>
+                <p>
+                  {{pizza.pizzaType}}
+                </p>
+              </li>
+              <li>
+                <p>
+                  {{pizza.options}}
+                </p>
+              </li>
+            </ul>
+            <div class="row">
+              <div class="col">
+                <h6>Rs.{{pizza.price}}/-</h6>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <!-- <div class="pizza-result">
+        <div class="media">
+          <img src="assets/images/batmanpizza.svg" class="align-self-center mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">Batman Pizza</h5>
+            <ul>
+              <li>
+                <p>
+                  Thin Crust
+                </p>
+              </li>
+              <li>
+                <p>
+                  Cheese Burst
+                </p>
+              </li>
+              <li>
+                <p>
+                  Cheese Burst
+                </p>
+              </li>
+            </ul>
+            <div class="row">
+              <div class="col">
+                <h6>Rs.300/-</h6>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div> -->
+    </div>
+  </div>
+</div>

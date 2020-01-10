@@ -1,0 +1,12 @@
+.header-menu li{
+    margin-right: 30px;
+}
+.header-container .col-md-9{
+    border: 1px solid #000;
+}
+.header-menu{
+    margin-top: 15px;
+}
+p{
+    margin-top: 15px;
+}
