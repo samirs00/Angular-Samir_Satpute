@@ -250,19 +250,539 @@ export class MyPizzaComponent implements OnInit {
       pizzaBase: "Thin Crust",
       image: "assets/images/batmanpizza.svg",
     },
+    {
+      name: "Batman pizza2",
+      price: 100,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic Corn2",
+      price: 200,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic Tomato2",
+      price: 300,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Margherita2",
+      price: 400,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Double Cheese2",
+      price: 500,
+      options: "Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Soya Masala2",
+      price: 600,
+      options: "Thin Crust",
+      pizzaBase: "No cheese",
+      pizzaType: "Cheese burst",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Spiced Paneer2",
+      price: 200,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Sausage2",
+      price: 300,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Country feast2",
+      price: 400,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Farmers peak2",
+      price: 600,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Tandoori paneer2",
+      price: 100,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Veggie Lover2",
+      price: 200,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Pepperoni2",
+      price: 300,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Lebanese Chicken2",
+      price: 400,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Spiced Chicken Meatballs2",
+      price: 500,
+      options: "Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Veg Exotica2",
+      price: 600,
+      options: "Thin Crust",
+      pizzaBase: "No cheese",
+      pizzaType: "Cheese burst",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Smoke Chicken2",
+      price: 200,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Tripple chicken2",
+      price: 300,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Itallian2",
+      price: 400,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic corn2",
+      price: 600,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic Tomato2",
+      price: 100,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Double Cheese2",
+      price: 200,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Tikka2",
+      price: 300,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Paneer Tikka2",
+      price: 400,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Tomato tikka2",
+      price: 500,
+      options: "Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Double Tikka2",
+      price: 600,
+      options: "Thin Crust",
+      pizzaBase: "No cheese",
+      pizzaType: "Cheese burst",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Onion pizza2",
+      price: 200,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Sausage N Tikka2",
+      price: 300,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Spiced Chicken Meatballs2",
+      price: 400,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Pan Pizzas2",
+      price: 600,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
 
 
-  ]
+
+
+    {
+      name: "Batman pizza3",
+      price: 100,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic Corn3",
+      price: 200,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic Tomato3",
+      price: 300,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Margherita3",
+      price: 400,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Double Cheese3",
+      price: 500,
+      options: "Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Soya Masala3",
+      price: 600,
+      options: "Thin Crust",
+      pizzaBase: "No cheese",
+      pizzaType: "Cheese burst",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Spiced Paneer3",
+      price: 200,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Sausage3",
+      price: 300,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Country feast3",
+      price: 400,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Farmers peak3",
+      price: 600,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Tandoori paneer3",
+      price: 100,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Veggie Lover3",
+      price: 200,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Pepperoni3",
+      price: 300,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Lebanese Chicken3",
+      price: 400,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Spiced Chicken Meatballs3",
+      price: 500,
+      options: "Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Veg Exotica3",
+      price: 600,
+      options: "Thin Crust",
+      pizzaBase: "No cheese",
+      pizzaType: "Cheese burst",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Smoke Chicken3",
+      price: 200,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Tripple chicken3",
+      price: 300,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Itallian3",
+      price: 400,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic corn3",
+      price: 600,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Classic Tomato3",
+      price: 100,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Double Cheese3",
+      price: 200,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Tikka3",
+      price: 300,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Paneer Tikka3",
+      price: 400,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Tomato tikka3",
+      price: 500,
+      options: "Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Double Tikka3",
+      price: 600,
+      options: "Thin Crust",
+      pizzaBase: "No cheese",
+      pizzaType: "Cheese burst",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Onion pizza3",
+      price: 200,
+      options: "Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Multigrain",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Chicken Sausage N Tikka3",
+      price: 300,
+      options: "Non Veg",
+      pizzaType: "Cheese topping",
+      pizzaBase: "Flat bread",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Spiced Chicken Meatballs3",
+      price: 400,
+      options: "Veg",
+      pizzaType: "No cheese",
+      pizzaBase: "Regular Base",
+      image: "assets/images/batmanpizza.svg",
+    },
+    {
+      name: "Pan Pizzas3",
+      price: 600,
+      options: "Non Veg",
+      pizzaType: "Cheese burst",
+      pizzaBase: "Thin Crust",
+      image: "assets/images/batmanpizza.svg",
+    }
+  ];
+  filterObject: any[] = [{
+    price: 100,
+    options: "Veg",
+    pizzaType: "",
+    pizzaBase: "",
+  }];
+  filterPizzaArray:any[] = [];
   constructor() { }
-
-  
   ngOnInit() {
+    this.filterPizza(this.filterObject)
+  }
+  optionChange(value){
+    this.filterObject[0].options = value;
+    this.filterPizza(this.filterObject)
+  }
+  selectPizzaBase(value){
+    this.filterObject[0].pizzaBase = value;
+    this.filterPizza(this.filterObject)
+  }
+  selectPizzaType(value){
+    this.filterObject[0].pizzaType = value;
+    this.filterPizza(this.filterObject)
+  }
+  setRange(value){
+    this.filterObject[0].price = value;
+    this.filterPizza(this.filterObject)
   }
 
+  filterPizza(filterArray) {
+    this.filterPizzaArray = [];
+    var priceFilterArray = this.pizzaList.filter((elem) => filterArray.find(({ price }) => elem.price <= price));;
+    console.log("priceFilterArray :", priceFilterArray)
+    var optionsFilterArray = priceFilterArray.filter((elem) => filterArray.find(({ options }) => elem.options === options));
+    console.log("optionsFilterArray :", optionsFilterArray)
+    // let pizzaTypeFilterArray:any;
+    if(filterArray[0].pizzaType != ""){
+       var pizzaTypeFilterArray = optionsFilterArray.filter((elem) => filterArray.find(({ pizzaType }) => elem.pizzaType === pizzaType));
+    }else{
+       var pizzaTypeFilterArray = optionsFilterArray;
+    }
+    console.log("pizzaTypeFilterArray :", pizzaTypeFilterArray)
+    if(filterArray[0].pizzaBase != ""){
+      this.filterPizzaArray = pizzaTypeFilterArray.filter((elem) => filterArray.find(({ pizzaBase }) => elem.pizzaBase === pizzaBase));
+    }else{
+      this.filterPizzaArray = pizzaTypeFilterArray
+    }
 
-
-  filterPizza(){
-    
+    console.log("filter object :", this.filterPizzaArray)
   }
 
 }

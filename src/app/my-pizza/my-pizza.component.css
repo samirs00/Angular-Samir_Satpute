@@ -38,9 +38,15 @@ input[type="radio"]:checked + label::after {
 input[type="radio"] {
     display: none;
 }
-.select-pizza-col{
+.filter-pizza-col{
     border: 1px solid #000;
     margin-top: 40px;
+    height: 80vh;
+}
+.select-pizza-col{
+    margin-top: 40px;
+    height: 80vh;
+    overflow: auto;
 }
 .select-pizza{
     padding: 20px;
